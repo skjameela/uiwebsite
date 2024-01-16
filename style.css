@@ -521,6 +521,110 @@ secton{
 }
 
 
+
+.footer{
+    background:black;
+}
+
+.footer .box-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(26rem,1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size:2.5rem;
+    color:#219ebc;
+    padding:1rem 0;
+}
+
+
+
+.footer .box-container .box h3 i{
+    color:#219ebc;
+}
+
+.footer .box-container .box .links
+{
+    display:block;
+    font-size:1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box .links i{
+    color:#219ebc;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i
+{
+    padding-right:2rem;
+}
+
+
+
+.footer .box-conatiner .box p{
+    line-height:1.8;
+    font-size:1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+
+.footer .box-container .box .share a{
+    height:4rem;
+    width:4rem;
+    line-height:4rem;
+    border-radius: 5rem;
+    font-size:2rem;
+    color:var(--black);
+
+    margin-left:.2rem;
+    background:#eee;
+    text-align:center;
+}
+
+
+
+
+.footer .box-container .box .share a:hover
+{
+    background:#219ebc;
+    color:#fff;
+
+}
+
+
+
+
+.footer .box-container .box .email
+{
+    width:100%;
+    margin:.7rem 0;
+    padding:1rem;
+    border-radius:1rem;
+    background:#eee;
+    font-size:1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+
+
+.footer .box-container .box .btn{
+    border-color: #219ebc;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
         @media(max-width:991px) {
             html{
                  font-size:55%;
